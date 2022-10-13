@@ -1,0 +1,395 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:dni__ce",
+ "creation": "2022-10-13 11:54:23.026475",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datos_del_moodle_section",
+  "usuario_moodle",
+  "contrase\u00f1a_moodle",
+  "column_break_3",
+  "fecha_envio_correo",
+  "codigo",
+  "inscripcion_venta_section",
+  "asesor",
+  "column_break_10",
+  "mes",
+  "column_break_12",
+  "fecha_de_registro",
+  "datos_del_cliente_section",
+  "nombre_del_cliente",
+  "dni__ce",
+  "column_break_15",
+  "celular",
+  "correo",
+  "documentos_clientes_section",
+  "dni_ce",
+  "voucher_pago",
+  "column_break_21",
+  "recibo",
+  "terminos_condiciones",
+  "informacion_del_pago_section",
+  "forma_de_pago",
+  "medio_pago__contado",
+  "column_break_40",
+  "tipo_de_moneda",
+  "precio_total_del_curso",
+  "reserva_section",
+  "monto_de_separacion",
+  "column_break_32",
+  "medio_de_pago",
+  "column_break_34",
+  "fecha_de_reserva",
+  "column_break_36",
+  "estado",
+  "cuotas_section",
+  "numeros_de_cuotas",
+  "tabla_cuotas",
+  "datos_del_curso_section",
+  "curso_de_cortesia",
+  "multiplicidad",
+  "column_break_30",
+  "f_inicio_de_cursos_gratis",
+  "forma_de_acceso_sap",
+  "apertura_de_curso_section",
+  "tabla_modulos_sap",
+  "amended_from",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "datos_del_moodle_section",
+   "fieldtype": "Section Break",
+   "label": "DATOS DEL MOODLE"
+  },
+  {
+   "fieldname": "usuario_moodle",
+   "fieldtype": "Data",
+   "label": "USUARIO MOODLE"
+  },
+  {
+   "fieldname": "contrase\u00f1a_moodle",
+   "fieldtype": "Data",
+   "label": "CONTRASE\u00d1A MOODLE"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fecha_envio_correo",
+   "fieldtype": "Date",
+   "label": "Fecha Envio Correo"
+  },
+  {
+   "fieldname": "codigo",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Codigo",
+   "read_only": 1
+  },
+  {
+   "fieldname": "inscripcion_venta_section",
+   "fieldtype": "Section Break",
+   "label": "Inscripcion Venta"
+  },
+  {
+   "fieldname": "asesor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Asesor",
+   "options": "Asesor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mes",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Mes"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fecha_de_registro",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Fecha de Registro"
+  },
+  {
+   "fieldname": "datos_del_cliente_section",
+   "fieldtype": "Section Break",
+   "label": "Datos del Cliente"
+  },
+  {
+   "fieldname": "nombre_del_cliente",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre del Cliente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dni__ce",
+   "fieldtype": "Data",
+   "label": "DNI / CE",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "celular",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Celular",
+   "reqd": 1
+  },
+  {
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Correo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "documentos_clientes_section",
+   "fieldtype": "Section Break",
+   "label": "Documentos Clientes"
+  },
+  {
+   "fieldname": "dni_ce",
+   "fieldtype": "Attach",
+   "label": "Documento DNI / CE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "voucher_pago",
+   "fieldtype": "Attach",
+   "label": "Documento Voucher Pago",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recibo",
+   "fieldtype": "Attach",
+   "label": "Documento Recibo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "terminos_condiciones",
+   "fieldtype": "Attach",
+   "label": "Documento Terminos Condiciones",
+   "reqd": 1
+  },
+  {
+   "fieldname": "informacion_del_pago_section",
+   "fieldtype": "Section Break",
+   "label": "Informacion del Pago"
+  },
+  {
+   "fieldname": "forma_de_pago",
+   "fieldtype": "Select",
+   "label": "Forma de Pago",
+   "options": "\nCONTADO\nCUOTAS\nRESERVA - No hay Activaci\u00f3n",
+   "reqd": 1
+  },
+  {
+   "fieldname": "medio_pago__contado",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Medio Pago / Contado",
+   "options": "Medio de Pago"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tipo_de_moneda",
+   "fieldtype": "Link",
+   "label": "Tipo de Moneda",
+   "options": "Divisa Moneda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "precio_total_del_curso",
+   "fieldtype": "Currency",
+   "label": "Monto Total del Curso",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reserva_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Reserva"
+  },
+  {
+   "fieldname": "monto_de_separacion",
+   "fieldtype": "Currency",
+   "label": "Monto de Separacion"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "medio_de_pago",
+   "fieldtype": "Link",
+   "label": "Medio de Pago",
+   "options": "Medio de Pago"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fecha_de_reserva",
+   "fieldtype": "Date",
+   "label": "Fecha de Reserva"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "\nPendiente\nCancelado"
+  },
+  {
+   "fieldname": "cuotas_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Cuotas"
+  },
+  {
+   "fieldname": "numeros_de_cuotas",
+   "fieldtype": "Data",
+   "label": "Numeros de Cuotas"
+  },
+  {
+   "fieldname": "tabla_cuotas",
+   "fieldtype": "Table",
+   "label": "Tabla Cuotas",
+   "options": "tabla Cuotas"
+  },
+  {
+   "fieldname": "datos_del_curso_section",
+   "fieldtype": "Section Break",
+   "label": "Datos del Curso"
+  },
+  {
+   "fieldname": "curso_de_cortesia",
+   "fieldtype": "Link",
+   "label": "Curso de Cortesia",
+   "options": "Cursos Cortesia",
+   "reqd": 1
+  },
+  {
+   "fieldname": "multiplicidad",
+   "fieldtype": "Link",
+   "label": "Multiplicidad",
+   "options": "Multiplicidad",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "f_inicio_de_cursos_gratis",
+   "fieldtype": "Date",
+   "label": "F. Inicio de Cursos Gratis",
+   "reqd": 1
+  },
+  {
+   "fieldname": "forma_de_acceso_sap",
+   "fieldtype": "Select",
+   "label": "Forma de Acceso SAP",
+   "options": "\nUnico\nSerie\nParalelo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "apertura_de_curso_section",
+   "fieldtype": "Section Break",
+   "label": "Apertura de Curso"
+  },
+  {
+   "fieldname": "tabla_modulos_sap",
+   "fieldtype": "Table",
+   "label": "Tabla Modulos SAP",
+   "options": "Tabla Modulos SAP"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Inscripcion Cliente",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Prueba de Inscripcion",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-10-13 11:54:23.026475",
+ "modified_by": "Administrator",
+ "module": "Inscripcion",
+ "name": "Prueba de Inscripcion",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Asesor Administrativo",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

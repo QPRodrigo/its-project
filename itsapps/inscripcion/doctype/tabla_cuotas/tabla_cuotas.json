@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-13 08:49:12.414142",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "monto",
+  "fecha",
+  "medio",
+  "pago",
+  "estado",
+  "alerta"
+ ],
+ "fields": [
+  {
+   "fieldname": "monto",
+   "fieldtype": "Currency",
+   "label": "Monto"
+  },
+  {
+   "fieldname": "fecha",
+   "fieldtype": "Date",
+   "label": "Fecha"
+  },
+  {
+   "fieldname": "medio",
+   "fieldtype": "Link",
+   "label": "Medio",
+   "options": "Medio de Pago"
+  },
+  {
+   "fieldname": "pago",
+   "fieldtype": "Select",
+   "label": "Pago",
+   "options": "\nNO\nSI"
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "\nPendiente\nCancelado"
+  },
+  {
+   "fieldname": "alerta",
+   "fieldtype": "Select",
+   "label": "Alerta",
+   "options": "\nVencido\nSin Problema"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-13 09:20:22.280632",
+ "modified_by": "Administrator",
+ "module": "Inscripcion",
+ "name": "tabla Cuotas",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

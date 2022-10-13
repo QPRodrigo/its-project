@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-13 08:54:06.544509",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre_modulo_sap",
+  "fecha_de_inicio_sap"
+ ],
+ "fields": [
+  {
+   "fieldname": "nombre_modulo_sap",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Nombre Modulo SAP",
+   "options": "Modulos SAP",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_de_inicio_sap",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha de Inicio SAP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-13 10:50:48.988752",
+ "modified_by": "Administrator",
+ "module": "Inscripcion",
+ "name": "Tabla Modulos SAP",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

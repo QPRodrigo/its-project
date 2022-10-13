@@ -1,0 +1,44 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Inscripcion</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Inscripcion \",\"col\":4}}]",
+ "creation": "2022-10-12 09:01:50.589833",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "attachment",
+ "idx": 0,
+ "label": "Inscripcion",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inscripcion ",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inscripcion de Cliente",
+   "link_count": 0,
+   "link_to": "Inscripcion Cliente",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-10-13 11:51:06.513630",
+ "modified_by": "Administrator",
+ "module": "Inscripcion",
+ "name": "Inscripcion",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Inscripcion"
+}
