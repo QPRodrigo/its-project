@@ -10,7 +10,7 @@ MIT
 
 Clonar dentro de la carpeta app
 
-.- bench get-app <https://url>
+.- bench get-app < https://url >
 
 Instalar el aplicativo en el sitio o BD.
 
