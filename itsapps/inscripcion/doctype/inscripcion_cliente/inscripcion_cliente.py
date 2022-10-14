@@ -9,6 +9,7 @@ class InscripcionCliente(Document):
 	
 	def before_save(self):
 	    arry_mes = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']	 
+	    self.copia_dni = self.dni__ce
 	    if not self.fecha_de_registro:
 	        now = datetime.now()
 	        self.fecha_de_registro = now

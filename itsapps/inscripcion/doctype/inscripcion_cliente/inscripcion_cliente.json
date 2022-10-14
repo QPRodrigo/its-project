@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:dni__ce",
+ "autoname": "field:copia_dni",
  "creation": "2022-10-12 09:21:09.822227",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -22,6 +22,7 @@
   "datos_del_cliente_section",
   "nombre_del_cliente",
   "dni__ce",
+  "copia_dni",
   "column_break_15",
   "celular",
   "correo",
@@ -341,12 +342,19 @@
   {
    "fieldname": "column_break_40",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "copia_dni",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "copia dni",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-10-13 11:27:30.071884",
+ "modified": "2022-10-14 10:25:45.786770",
  "modified_by": "Administrator",
  "module": "Inscripcion",
  "name": "Inscripcion Cliente",
@@ -379,6 +387,7 @@
    "write": 1
   }
  ],
+ "search_fields": "dni__ce, nombre_del_cliente, forma_de_pago, medio_pago__contado",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
