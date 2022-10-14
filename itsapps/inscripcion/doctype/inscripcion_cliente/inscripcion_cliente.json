@@ -106,8 +106,8 @@
   {
    "fieldname": "mes",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Mes"
+   "label": "Mes",
+   "read_only": 1
   },
   {
    "fieldname": "datos_del_cliente_section",
@@ -145,8 +145,8 @@
   {
    "fieldname": "fecha_de_registro",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Fecha de Registro"
+   "label": "Fecha de Registro",
+   "read_only": 1
   },
   {
    "fieldname": "correo",
@@ -353,7 +353,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-10-14 10:34:24.963362",
+ "modified": "2022-10-14 12:00:05.062499",
  "modified_by": "Administrator",
  "module": "Inscripcion",
  "name": "Inscripcion Cliente",
