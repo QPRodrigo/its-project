@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-14 10:43:54.026709",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dni__ce_cliente",
+  "fecha_envio_correo",
+  "column_break_3",
+  "usuario_moodle",
+  "contrase\u00f1a_moodle",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "dni__ce_cliente",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "DNI / CE Cliente",
+   "options": "Inscripcion Cliente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "usuario_moodle",
+   "fieldtype": "Data",
+   "label": "USUARIO MOODLE"
+  },
+  {
+   "fieldname": "contrase\u00f1a_moodle",
+   "fieldtype": "Data",
+   "label": "CONTRASE\u00d1A MOODLE"
+  },
+  {
+   "fieldname": "fecha_envio_correo",
+   "fieldtype": "Data",
+   "label": "Fecha Envio Correo"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Datos Moodle Cliente",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-10-14 10:50:22.061731",
+ "modified_by": "Administrator",
+ "module": "Inscripcion",
+ "name": "Datos Moodle Cliente",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Asesor Administrativo",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
